@@ -1,0 +1,57 @@
+
+package scrapbook.type.question;
+
+import java.util.Scanner;
+
+public class ScrapbookTypeQuestion {
+
+    public static void main(String[] args) {
+      
+          Scanner scanner;
+       scanner = new Scanner(System.in);
+      
+       String fav1;  
+       System.out.print("what is your favorite hobby? ");
+       fav1 = scanner.nextLine();
+       
+       int fav2;
+       System.out.print("how old are you? ");
+       fav2 = scanner.nextInt();
+     
+       int fav3;
+       System.out.print("How many country have you visited? ");
+       fav3 = scanner.nextInt();
+    
+       int fav4;
+       System.out.print("what is your favorite number? ");
+       fav4 = scanner.nextInt();
+       
+       String fav5;
+       System.out.print("What is your favorite movie?");
+       fav5 = scanner.nextLine();
+       scanner.nextLine();
+       
+       String fav6;
+       System.out.print("What's one word that describe you? ");
+       fav6 = scanner.nextLine();
+       
+       int fav7;
+       System.out.print("On a scale 1-10, how adventurous are you? ");
+       fav7 = scanner.nextInt();
+       
+       String fav8 = "the world after the fall";
+       System.out.print("what's the title of a book you love? ");
+       fav8 = scanner.nextLine();
+       scanner.nextLine();
+       
+       String fav9 ;
+       System.out.print("What's your dream travel destination? ");
+       fav9 = scanner.nextLine();
+       
+       String fav10;
+       System.out.print("What's skill you like to learn? ");
+       fav10 = scanner.nextLine();
+       
+    }
+    
+}
